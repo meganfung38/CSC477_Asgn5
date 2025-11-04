@@ -12,7 +12,7 @@ This interactive visualization observes the relationship between a track's **dan
 
 ## Dataset Overview
 
-The **[Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data)**, sourced from Kaggle, is a community complied dataset that aggregates track level information from Spotify's public API. The dataset contains: 
+The **[Spotify Tracks Dataset-- Maharshi Pandya, Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data)**, sourced from Kaggle, is a community complied dataset that aggregates track level information from Spotify's public API. The dataset contains: 
 - tracks (one row per track) across 125 different genres
 - includes metadata (track name, artist, album) and audio features (danceability, energy, valence, etc.)
 - and popularity level, which represents how much the track is being played on Spotify on a 0-100 scale 
@@ -29,7 +29,7 @@ The **[Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-s
 | **duration_ms** | Track length in milliseconds |
 | **explicit** | Boolean flag indicating explicit lyrics |
 
-This dataset was last updated in 2022.
+*This dataset was last updated in 2022.*
 
 ---
 
@@ -417,6 +417,9 @@ During **refinement**, I implemented the additional summary panels to pull all t
 
 Overall, this project deepened my understanding of how interaction design shapes data interpretation. I learned that interactivity is most powerful when it is purposeful and minimal. Implementing controls that have a clear analytical function is essential to allow meaningful patterns to emerge from the data visualization. Through the tool I implemented, I discovered that genres such as Pop and EDM exhibit a strong positive relationship between danceability and popularity, confirming that high danceability tends to align with mainstream success. In contrast, genres with a wider range of danceability, like Classical music, exhibit weak correlations with popularity, suggesting that other musical qualities—such as emotional tone or instrumentation—drive listener engagement. The overall pattern shows that high danceability typically corresponds with high popularity, as revealed in the **Quadrant Distribution** panel.
 
-In conclusion, Spotify Danceability vs Popularity demonstrates how focused design and interactive features can yield an engaging and insightful exploration experience. The visualization balances simplicity with depth, allowing users to examine the overall relationship between danceability and popularity while retaining the ability to isolate specific examples. Through the development process of this assignment, I gained a deeper understanding of how thoughtful design choices can bridge data analytics and curiosity. 
+In conclusion, Spotify Danceability vs Popularity demonstrates how focused design and interactive features can yield an engaging and insightful exploration experience. The visualization balances simplicity with depth, allowing users to examine the overall relationship between danceability and popularity while retaining the ability to isolate specific examples. Through the development process of this assignment, I gained a deeper understanding of how thoughtful design choices can bridge data analytics and curiosity.
 
+---
 
+## Source Code 
+**[https://github.com/meganfung38/CSC477_Asgn5.git](GitHub Repo)**
