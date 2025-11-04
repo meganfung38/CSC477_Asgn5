@@ -422,4 +422,4 @@ In conclusion, Spotify Danceability vs Popularity demonstrates how focused desig
 ---
 
 ## Source Code 
-**[https://github.com/meganfung38/CSC477_Asgn5.git](GitHub Repo)**
+**[GitHub Repo](https://github.com/meganfung38/CSC477_Asgn5.git)**
