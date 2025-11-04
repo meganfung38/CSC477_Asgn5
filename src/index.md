@@ -395,7 +395,7 @@ html`<div style="background: #f5f5f5; padding: 30px; border-radius: 8px; margin:
 
 ## Write-Up
 
-For this assignment, I developed an interactive visualization that investigates whether more danceable songs tend to be more popular across Spotify genres. The visualization uses data from the [Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data), a community-compiled resource built from Spotify's public API that provides track-level metadata and quantitative audio features such as danceability, valence, and popularity scores. This visualization aims to provide a data-driven interface that allows users to explore how musical characteristics align with or diverge from mainstream listening trends. 
+For this assignment, I developed an interactive visualization that investigates whether more danceable songs tend to be more popular across Spotify genres. The visualization uses data from the **[Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data)**, a community-compiled resource built from Spotify's public API that provides track-level metadata and quantitative audio features such as danceability, valence, and popularity scores. This visualization aims to provide a data-driven interface that allows users to explore how musical characteristics align with or diverge from mainstream listening trends. 
 
 After brainstorming different ways to visualize the dataset, I chose to implement a bubble chart scatter plot because it best reveals correlations between two continuous variables. Each bubble in the chart represents an individual track, plotted by danceability on the x-axis and popularity on the y-axis, with color encoding the track's genre. While I originally planned to scale bubble size by valence to convey mood variation, I found that incorporating this additional visual encoding was distracting and visually dense at scale. Therefore, I fixed the bubble size to create a more uniform field of points that emphasizes the relationship between the two core dimensions—**danceability** and **popularity**—without unnecessary visual noise. 
 
@@ -423,3 +423,4 @@ In conclusion, Spotify Danceability vs Popularity demonstrates how focused desig
 
 ## Source Code 
 **[GitHub Repo](https://github.com/meganfung38/CSC477_Asgn5.git)**
+
