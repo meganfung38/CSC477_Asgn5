@@ -1,4 +1,5 @@
-# CSC477 Assignment 5: Interactive Visualization By Megan Fung
+# CSC477 Assignment 5: Interactive Visualization 
+**By Megan Fung**
 
 ---
 
